@@ -80,5 +80,5 @@ test:
 production:
   <<: *default
   database: testtodo_production
-  username: testtodo
+  username: testtodo_production_user
   password: <%= ENV["TESTTODO_DATABASE_PASSWORD"] %>
